@@ -6,3 +6,16 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+ /* --- estilos del body--- */
+body{
+    background-color:#977c7c;
+    font-family: 'Amatic SC';
+    height: auto;
+    max-width: 100%;
+    padding: 30px;
+}
+/* --- estilos del titulo --- */
+
+.titulo{ 
+    font-size: 25px;
+}
