@@ -7,17 +7,98 @@
  * 
  */
  /* --- estilos del body--- */
+
 body{
-    background-color:#977c7c;
-    font-family: 'Amatic SC';
+    background-image: url(https://st4.depositphotos.com/14521116/26610/i/450/depositphotos_266103124-stock-photo-minimalistic-interior-style-office-space.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-color: rgb(0,0,0);
+    font-family: 'euclid Medium';
     height: auto;
     max-width: 100%;
-    padding: 30px;
+    padding: 10px;
+
 }
+
 /* --- estilos del titulo --- */
 
 .titulo{ 
-    font-size: 25px;
+    font-size: 50px;
+    text-align: justify ;
+}
+
+/* --- estilos generales --- */
+
+
+h1{
+    padding-top: 50px;
+    color: #0c0c0c;
+    font-size: 70px;
     text-align: center;
+    text-shadow: 3px 3px rgb(245, 248, 247)
     
 }
+
+h2{
+    font-size: 30px;
+    text-align: center;
+    padding: 70px;
+
+}
+
+h3{
+    color: 0c0c0c;
+    font-size: 45px;
+    text-align:justify;
+    padding: 40px;
+    text-align: center;
+    font-family: "Bebas Neue script=latin rev=3";
+}
+
+p{
+    text-align: center;
+}
+
+a:visited{
+    color: rgb(57, 107, 124);
+    cursor: grabbing;
+    padding: 20px
+  }
+
+  hr{
+      border-color: rgb(148, 146, 146);
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto
+      ;
+
+
+  }
+
+  .caja{
+    background-color: grey;
+    padding: 20px 40px 20px 40px;
+  }
+  
+
+  /* --- estilos del los contenedores con los proyectos --- */
+
+  *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+
+  .contenedorcodepen{
+      border: honeydew;
+      opacity: 100%;
+      display: flex;  
+      width: 100%;
+      justify-content: space-around;
+      padding-top: 2% ;
+      padding-bottom: 2%;
+      transition: transform ease-in 1000ms;
+      margin-bottom: 30px;
+
+  }
