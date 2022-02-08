@@ -7,98 +7,108 @@
  * 
  */
  /* --- estilos del body--- */
-
-body{
-    background-image: url(https://st4.depositphotos.com/14521116/26610/i/450/depositphotos_266103124-stock-photo-minimalistic-interior-style-office-space.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-color: rgb(0,0,0);
-    font-family: 'euclid Medium';
-    height: auto;
-    max-width: 100%;
-    padding: 10px;
-
+*{
+    margin: 0;
+    padding:0;
 }
 
-/* --- estilos del titulo --- */
+header{
+        background-image: url(https://img.freepik.com/free-vector/programming-code-made-with-binary-code-coding-hacker-background-digital-binary-data-streaming-digital-code_127544-778.jpg?size=626&ext=jpg);
+        height: 700px;
+        width: 100%;
 
-.titulo{ 
-    font-size: 50px;
-    text-align: justify ;
-}
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;  
 
-/* --- estilos generales --- */
+ }
+
+ .transparencia{
+     background-color:  rgba(161, 155, 155, 0.316);
+     height: 700px;
+     width: 100%;
+ }
 
 
-h1{
-    padding-top: 50px;
-    color: #0c0c0c;
-    font-size: 70px;
-    text-align: center;
-    text-shadow: 3px 3px rgb(245, 248, 247)
+    h1 {
+        font-family: 'Bebas Neue';
+        text-align: center;
+        font-size: 100px;
+        color: rgb(0, 0, 0);
+        padding-bottom: 100px;
+        
+    }
+
+    h2 {
+        width: 20px;
+        height: 20px;
+        padding-bottom: 1px;
+        color: rgb(0, 0, 0);
+    }
+
     
-}
+    .p-about {
+        
+        text-align: center;
+        font-size: 30px;
+        color: #000000;
+    }
+    footer {
+        padding: 200px;
+    }
 
-h2{
-    font-size: 30px;
-    text-align: center;
-    padding: 70px;
+/** Navegar Proyectos **/
 
-}
-
-h3{
-    color: 0c0c0c;
-    font-size: 45px;
-    text-align:justify;
-    padding: 40px;
-    text-align: center;
-    font-family: "Bebas Neue script=latin rev=3";
-}
-
-p{
-    text-align: center;
-}
-
-a:visited{
-    color: rgb(57, 107, 124);
-    cursor: grabbing;
-    padding: 20px
-  }
-
-  hr{
-      border-color: rgb(148, 146, 146);
-      width: 50%;
-      margin-left: auto;
-      margin-right: auto
-      ;
-
-
-  }
-
-  .caja{
-    background-color: grey;
-    padding: 20px 40px 20px 40px;
-  }
-  
-
-  /* --- estilos del los contenedores con los proyectos --- */
-
-  *{
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-  }
-
-  .contenedorcodepen{
-      border: honeydew;
-      opacity: 100%;
-      display: flex;  
-      width: 100%;
-      justify-content: space-around;
-      padding-top: 2% ;
-      padding-bottom: 2%;
-      transition: transform ease-in 1000ms;
-      margin-bottom: 30px;
-
-  }
+    .proyectos {
+        height: 700px;
+        margin-top: 200px;
+        text-align: center;
+        
+    }
+    .proyecto-1 {
+        background-image: url(images/test.jpeg);
+        background-repeat: no-repeat;
+        background-size: 21rem;
+        margin: 50px;
+    display: inline-block;
+    border-radius: 30px;
+    background-color: rgb(120, 151, 171);
+    width: 20rem;
+    height: 30rem;
+    }
+    
+    .proyecto-2 {
+        background-image: url(images/test.jpeg);
+        background-repeat: no-repeat;
+        background-size: 21rem;
+        margin: 50px;
+    display: inline-block;
+    border-radius: 30px;
+    background-color: rgb(120, 151, 171);
+    width: 20rem;
+    height: 30rem;
+    }
+    
+    .proyecto-3 {
+        background-image: url(images/test.jpeg);
+        background-repeat: no-repeat;
+        background-size: 21rem;
+        margin: 50px;
+    display: inline-block;
+    border-radius: 30px;
+    background-color: rgb(120, 151, 171);
+    width: 20rem;
+    height: 30rem;
+    }
+    
+    .proyecto-4 {
+        background-image: url(images/test.jpeg);
+        background-repeat: no-repeat;
+        background-size: 21rem;
+    margin: 50px;
+    display: inline-block;
+    border-radius: 30px;
+    background-color: rgb(120, 151, 171);
+    width: 20rem;
+    height: 30rem;
+    }
